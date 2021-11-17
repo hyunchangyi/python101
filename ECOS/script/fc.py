@@ -81,7 +81,6 @@ def plot_rec(ax, periods):
         ax.fill_between(rec0.index, ax.get_ylim()[0], ax.get_ylim()[1], rec0['rec'], alpha=0.1)
 
 
-
 def yaxis_format(ax, i = 1):
     string = '{:,.' + str(i) + 'f}'
     try:
@@ -90,12 +89,14 @@ def yaxis_format(ax, i = 1):
         ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, p: string.format(x)))
 
 
+
 def xaxis_format(ax, i = 1):
     string = '{:,.' + str(i) + 'f}'
     try:
         [a.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, p: string.format(x))) for a in ax.ravel()]
     except:
         ax.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, p: string.format(x)))
+
 
 
 def get_ticklabels(index, i, fmt='%Y'):
