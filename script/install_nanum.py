@@ -1,11 +1,13 @@
 import os
 import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
+from IPython import get_ipython
 
 nanum_fonts = [f for f in fm.fontManager.ttflist if 'Nanum' in f.name]
 
 if len(nanum_fonts) == 0:
-    !apt-get -y install fonts-nanum
+    get_ipython().magic("apt-get -y install fonts-nanum")
+#     !apt-get -y install fonts-nanum
     fm._rebuild()
     print('\n\nNanum fonts installed and matplotlib.font_manager rebuilt.')
     print('Restart Colab runtime.')
