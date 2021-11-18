@@ -15,5 +15,12 @@ else:
     plt.rc('font', family='NanumGothic')
     # 마이너스 표시 문제
     plt.rcParams['axes.unicode_minus'] = False
+    
+    
+import requests
+
+def save_url_file(url, filename):
+    r = requests.get(url, allow_redirects=True)
+    open(filename, 'wb').write(r.content)
         
         
