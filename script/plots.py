@@ -13,7 +13,7 @@ fc_peaks = [pd.to_datetime('1991-01-01'), pd.to_datetime('1998-01-01'),
             pd.to_datetime('2003-01-01'), pd.to_datetime('2009-01-01')]
 
 
-rec = pd.read_csv('input//recessions.csv', header=0, index_col=0)
+rec = pd.read_csv('python2021/input/recessions.csv', header=0, index_col=0)
 rec.index = pd.to_datetime(rec.index)
 rec = rec.resample('QS').first()
 
