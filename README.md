@@ -13,14 +13,14 @@
 
 1. python_2021.pdf 연수 자료
 2. 주피터노트북 파일
-    - python_intro.ipynb
-    - pandas.ipynb
-    - data_analysis.ipynb
-    - wiot.ipynb
-    - test.ipynb
+    - python_intro.ipynb (파이썬 자료형, 문법, 라이브러리 등 설명)
+    - pandas.ipynb (파이썬 데이터 분석 라이브러리, 판다스 설명)
+    - data_analysis.ipynb (여러 데이터 소스에서 데이터 입수, 전처리 등 설명)
+    - wiot.ipynb (국제투입산출표 분석)
+    - test.ipynb (파이썬 기초 과제)
 3. input 폴더
     - 이미지, excel, csv 파일 등
-    - 노트북 파일에서 Image(), pd.read_excel(), pd.read_csv() 등으로 불러옴
+    - 노트북 파일에서 Image(), pd.read_excel(), pd.read_csv() 등으로 입수
 4. script 폴더
     - 사용자 정의 함수, 사용자 정의 컬러(RGB값) 등이 저장된 파이썬 스크립트 파일(.py 확장자)
     - 노트북 파일에서 %run 명령어를 이용하여 실행
