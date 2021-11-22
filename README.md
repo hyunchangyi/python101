@@ -9,7 +9,9 @@
     - data_analysis.ipynb
     - wiot.ipynb
     - test.ipynb
-3. input 폴더 (노트북 파일에서 불러와 사용)
+3. input 폴더
     - 이미지, excel, csv 파일 등
-4. script 폴더 (노트북 파일에서 불러와 사용)
-    - 사용자 정의 함수, 그래프에서 사용하는 컬러 RGB값 리스트 등
+    - 노트북 파일에서 Image(), pd.read_excel(), pd.read_csv() 등으로 불러옴
+4. script 폴더
+    - 사용자 정의 함수, 사용자 정의 컬러(RGB값) 등이 저장된 파이썬 스크립트 파일(.py 확장자)
+    - 노트북 파일에서 %run 명령어를 이용하여 실행
