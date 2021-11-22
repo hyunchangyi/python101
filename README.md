@@ -4,7 +4,7 @@
 
 1. python_2021.pdf 연수 자료
 2. 주피터노트북 파일 
-    - 노트북 파일 상단의 ![open in Colab](https://github.com/hyunchangyi/python2021/input/open_in_colab.png?raw=true) 버튼을 클릭하여 실행
+    - 노트북 파일 상단의 ![open in Colab](https://github.com/hyunchangyi/python2021/raw/main/input/open_in_colab.png) 버튼을 클릭하여 실행
     - python_intro.ipynb
     - pandas.ipynb
     - data_analysis.ipynb
