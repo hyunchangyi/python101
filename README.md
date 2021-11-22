@@ -3,14 +3,13 @@
 파이썬 기초 연수 자료(2021.11.25-26)
 
 1. python_2021.pdf 연수 자료
-2. 주피터노트북 파일 
-    - 노트북 파일 상단의 ![open in Colab](https://github.com/hyunchangyi/python2021/raw/main/input/open_in_colab.png) 버튼을 클릭하여 실행
+2. 주피터노트북 파일 (open in Colab 버튼을 클릭하여 구글 Colab에서 실행)
     - python_intro.ipynb
     - pandas.ipynb
     - data_analysis.ipynb
     - wiot.ipynb
     - test.ipynb
-3. input 폴더
+3. input 폴더 (노트북 파일에서 불러와 사용)
     - 이미지, excel, csv 파일 등
-4. script 폴더
+4. script 폴더 (노트북 파일에서 불러와 사용)
     - 사용자 정의 함수, 그래프에서 사용하는 컬러 RGB값 리스트 등
