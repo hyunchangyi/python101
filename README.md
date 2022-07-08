@@ -18,7 +18,7 @@
 
 ## 파일 내용
 
-1. python_lecture_note.pdf 연수 노트
+1. lecture_note.pdf 연수 노트
 2. 주피터노트북 파일
     - intro.ipynb (파이썬 자료형, 문법, 라이브러리 등)
     - pandas.ipynb (파이썬 데이터 분석 라이브러리, 판다스)
