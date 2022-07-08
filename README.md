@@ -13,7 +13,7 @@
     - 구글 Colab에 로그인(구글 아이디 필요)
     - 셀을 하나 선택하여 실행(Shift + Enter)되는 지 확인
 2. ECOS open API 사용 준비
-    - open API(https://ecos.bok.or.kr/api/#/) MyPage에서 인증키 신청
+    - open API 페이지(https://ecos.bok.or.kr/api/#/)에서 인증키 신청
 
 
 ## 파일 내용
