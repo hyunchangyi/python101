@@ -23,7 +23,7 @@
     - intro.ipynb (파이썬 자료형, 문법, 라이브러리 등)
     - pandas.ipynb (파이썬 데이터 분석 라이브러리, 판다스)
     - wiot.ipynb (국제투입산출표 분석)
-    - Preprocess.ipynb (BIS, ECOS, 한국부동산원 등에서 인수합 데이터 전처리 및 시각화)
+    - Preprocess.ipynb (BIS, ECOS, 한국부동산원 등에서 입수한 데이터의 전처리 및 시각화)
     - test.ipynb (파이썬 기초 과제)
 3. input 폴더
     - 이미지, excel, csv 파일 등
