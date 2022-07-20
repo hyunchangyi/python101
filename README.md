@@ -18,7 +18,8 @@
 
 ## 파일 내용
 
-1. lecture_note.pdf 연수 노트
+0. Python_for_BigData.pdf 빅데이터 분석을 위한 파이썬 연수 자료
+1. lecture_note.pdf 파이썬 기초 연수 자료
 2. 주피터노트북 파일
     - intro.ipynb (파이썬 자료형, 문법, 라이브러리 등)
     - pandas.ipynb (파이썬 데이터 분석 라이브러리, 판다스)
