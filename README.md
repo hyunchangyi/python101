@@ -19,9 +19,7 @@
 
 ## 파일 내용
 
-0. Python_for_BigData.pdf 빅데이터 분석을 위한 파이썬 연수 자료
-
-1. lecture_note.pdf 파이썬 기반 데이터 사이언스 입문
+1. lecture_note.pdf 파이썬 기반 데이터 사이언스 입문 강의노트
 
 2. 주피터노트북 파일
     - intro.ipynb (파이썬 자료형, 문법, 라이브러리 등)
@@ -40,3 +38,5 @@
 
 5. BDS 폴더
     - 자생적 연구모임(데이터 역량개발) 스터디 자료
+
+6. Python_for_BigData.pdf 빅데이터 분석을 위한 파이썬 연수 자료
