@@ -5,7 +5,7 @@ import os
 nanum_fonts = [f for f in fm.fontManager.ttflist if 'Nanum' in f.name]
 
 if len(nanum_fonts) == 0:
-    fm._rebuild()
+    fm.fontManager.__init__()
     print('Nanum fonts installed. Restart Colab runtime.')
     # 단계 2: 런타임 재시작
     os.kill(os.getpid(), 9)
