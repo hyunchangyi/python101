@@ -1,10 +1,10 @@
 import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
 import os
+import subprocess
 
-!sudo apt-get install -y fonts-nanum > /dev/null 2>&1                  
-import matplotlib.font_manager as fm
-import matplotlib.pyplot as plt
+subprocess.run(['sudo', 'apt-get', 'install', '-y', 'fonts-nanum'],    
+             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)   
 
 fm.fontManager.addfont('/usr/share/fonts/truetype/nanum/NanumGothic.ttf')
 plt.rcParams['font.family'] = 'NanumGothic'
